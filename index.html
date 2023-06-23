@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1 class="heading">Sorting Visualizer</h1>
+
+    <br>
+    <div class="centerFirst">
+        <button id="generate-bars" style="--clr:cyan" onclick="generateBars()"><span>Generate
+                Bars</span><i></i></button>
+    </div>
+    <div class="center">
+        <button id="bubble-sort" style="--clr:#8A2BE2" onclick="bubbleSort()"><span>Bubble Sort</span><i></i></button>
+        <button id="selection-sort" style="--clr:#8A2BE2" onclick="selectionSort()"><span>Selection
+                Sort</span><i></i></button>
+        <button id="insertion-sort" style="--clr:#8A2BE2" onclick="insertionSort()"><span>Insertion
+                Sort</span><i></i></button>
+        <button id="merge-sort" style="--clr:#8A2BE2" onclick="mergeSort()"><span>Merge Sort</span><i></i></button>
+        <button id="quick-sort" style="--clr:#8A2BE2" onclick="quickSort()"><span>Quick Sort</span><i></i></button>
+    </div>
+
+    <div class="headingBarContainer" id="bars-container"></div>
+    <div class="descriptionContainer" id="description-container"></div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
